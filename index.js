@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
     res.send('Service Running Nodejs Express Restful API')
 })
 
+// import route posts
+const postsRouter = require('./routes/posts');
+app.use('/api/posts', postsRouter);
+
 app.listen(port, () => {
     console.log(`app running at http://localhost:${port}`)
 })
