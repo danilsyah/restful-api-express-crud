@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/danilsyah/restful-api-express-crud#readme",
   "dependencies": {
+    "dotenv": "^16.4.1",
     "express": "^4.17.1",
     "mysql": "^2.18.1"
   }
